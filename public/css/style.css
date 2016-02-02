@@ -1,0 +1,591 @@
+/* FONTS PALO SECO 
+width:250px;
+       height:150px;
+
+*/
+@font-face {
+    font-family: 'icomoon';
+    src:    url('../fonts/icomoon.eot?gspge');
+    src:    url('../fonts/icomoon.eot?gspge#iefix') format('embedded-opentype'),
+        url('../fonts/icomoon.ttf?gspge') format('truetype'),
+        url('../fonts/icomoon.woff?gspge') format('woff'),
+        url('../fonts/icomoon.svg?gspge#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+[class^="icon-"], [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-file:before{
+    content: "\e900";
+    color:blue;
+    font-weight:bold;
+    font-size:1.3em;
+    padding-right:20px;
+}
+
+
+
+@font-face {
+    font-family: 'paloseco';
+    src: url('../fonts/anonymous-webfont.eot');
+    src: url('../fonts/anonymous-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/anonymous-webfont.woff2') format('woff2'),
+         url('../fonts/anonymous-webfont.woff') format('woff'),
+         url('../fonts/anonymous-webfont.ttf') format('truetype'),
+         url('../fonts/anonymous-webfont.svg#anonymousregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/* FONTS CON SERIFA */
+@font-face {
+    font-family: 'serif';
+    src: url('../fonts/artifika-regular-webfont.eot');
+    src: url('../fonts/artifika-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/artifika-regular-webfont.woff2') format('woff2'),
+         url('../fonts/artifika-regular-webfont.woff') format('woff'),
+         url('../fonts/artifika-regular-webfont.ttf') format('truetype'),
+         url('../fonts/artifika-regular-webfont.svg#artifikamedium') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+*{
+  text-decoration:none;
+}
+
+
+.header{
+	display:flex;
+	justify-content:space-between;
+  height:58px;
+}
+
+   .header-figure{
+ 	  margin:0;
+ 	  padding:0;
+    }
+
+
+	    .header-figure img{
+	 	  width:220px;
+	 	  min-height:58px;
+	    }
+
+    .header-nav{
+    	flex-grow:3;
+    	background:#2654A2;
+    	height:58px;
+    }
+
+	.nav-list{
+      list-style:none;
+      margin-top:0;
+      margin-left:50px;
+	}
+
+	   .nav-list li{
+	   	   display:inline-block;
+	   	   margin-left:10px;
+	   	   font-family:"paloseco";
+	   	   font-size:1em;
+	   	   font-weight:bold;
+         line-height:54px;
+	   }
+
+     .nav-list li a{
+       text-decoration:none;
+       color:white;
+     }
+
+       .nav-list li:hover{
+        border-top:4px solid white;
+         box-sizing:border-box;
+       }
+
+    .nav-pais{
+       border-radius:20px;
+       margin-top:12px;
+    }
+
+    .comboPais{
+       color:#273b47;
+       padding:0 3px;
+    }
+
+
+
+
+.section--slider{
+    background:#2654A2;
+}
+
+
+          .slider li img{
+             height:400px;
+          }
+
+          .slider--article{
+             height:300px;
+          }
+
+          .slider--article{
+             height:250px;
+             position:relative;
+             margin:0  20px;
+             padding:30px 0;
+          }
+
+          .slider-article--title{
+            color:white;
+            font-family:"paloseco";
+            font-weight:bold;
+            margin-left:65px;
+          }
+
+          .slider--article-content {
+            color:blue;
+            font-family:"serif";
+            text-align: justify;
+            color:white;
+            width:650px;
+            margin-left:5%;
+            line-height:25px;
+          }
+
+          .slider--figure{
+            position:absolute;
+            right:0;
+            margin-right:100px;
+            top:55px;
+          }
+
+          .slider--figure img{
+              width:260px;
+              height:170px;
+              border-radius:20px; 
+          }
+
+         
+
+
+     .service--worflow-header{
+        color:#5952DB;
+        text-align:center;
+        font-family:"paloseco";
+     }
+
+     .servicios-title{
+       color:#5952DB;
+       font-family:"paloseco";
+       font-size:1.2em;
+     }
+
+       .figure-main img{
+         margin:20px 20px;
+       }
+
+       .figure-secundary img{
+          margin:20px;
+       }
+
+     .btn-service input{
+        margin-left:500px;
+     }
+
+
+     .col-3{
+       display:inline-block;
+     }
+
+
+
+
+
+
+
+  .section--nosotros{
+    color:blue;
+    margin:10px 20%;
+    font-family:"serif";
+    font-weight:normal;
+    line-height:30px;
+    text-align:justify;  
+  }
+
+    .section--nosotros:first-letter{
+      font-size:30px;
+      font-style:italic;
+    }
+
+    .section--nosotros-figure{
+       text-align:center;
+    }
+
+       .section--nosotros-figure img{
+          border-radius:20px;
+          box-shadow:8px 8px 8px #AAA;
+       }
+
+    .list-homologo{
+      list-style:none;  
+    }
+
+   .list-homologo li{
+      /*border-bottom:1px solid #AAA;*/
+      margin:44px 0;
+      padding:6px 0;
+   }
+
+
+.contenedor{
+   padding:20px 0;
+}
+
+
+
+.footer{
+    background:#2654A2;
+    display:flex;
+    padding:10px 0;
+    justify-content:space-around;
+    align-items:center;
+}
+
+
+  .footer p {
+     color:white;
+     font-family:"paloseco";
+     font-size:0.9em;
+  }
+
+
+  .footer-ubication{
+    width:530px;
+  }
+
+
+/*ESTILOS ANGULAR */
+
+.pais-ES,.pais-EN{
+  border-radius:20px;
+}
+
+.option-ES,.option-EN{
+   color:#273b47;
+}
+
+
+
+/*EVENTOS JS*/
+.submenu{
+   position:relative;
+   border:4px solid red;
+   padding:20px 0;
+   display:none;
+}
+
+.lista1{
+  display:none;
+  list-style:none;
+  margin:0;
+  padding:10px 0;
+  background:#888A88;
+}
+
+.lista2{
+   display:none;
+   list-style:none;
+   margin:0;
+  padding:10px 0;
+  background:#888A88
+}
+
+ .lista1 .item{
+   display:inline-block;
+   margin-left:90px;
+   font-weight:normal;
+ }
+
+ .lista1 .item a{
+   text-decoration:none;
+   color:white;
+   font-style:italic;
+ }
+
+.lista1 .item a:hover{
+  border-bottom:2px solid white;
+ }
+
+
+ .lista2 .item a{
+   text-decoration:none;
+   color:white;
+   font-style:italic;
+ } 
+
+ .lista2 .item a:hover{
+border-bottom:2px solid white;
+ }
+
+ .lista2  .item{
+   display:inline-block;
+   margin-left:40px;
+   font-weight:normal;
+ }
+
+
+  /*.listas{
+        background:white;
+        line-height:60px;
+  } */
+
+
+
+/* STYLE SERVICIOS*/
+
+.figure--ducto{
+  width:240px;
+  height:60px;  
+  transform: skew(-11deg,0deg);
+  margin-top:8px;
+}
+
+
+.ducto{
+    transform: skew(-11deg,0deg);
+    border:1px solid #2654A2;
+}
+
+ .ductos-images{
+   position:relative;
+   left:30px;
+ }
+
+  .content-ducto{
+    margin-top:15px;
+  }
+
+  .title--ducto{
+    color:#2654A2;
+    width:100%;
+  }
+
+  .title1-ducto{
+      margin-left:58px;
+       color:#2654A2;
+  }
+
+  .title-servicio{
+     color:#2654A2;
+     position:relative;
+     left:50px;
+  }
+
+   .row{
+     padding:0 190px;
+  }
+
+
+  .work-ducto{
+    margin-left:55px;
+  }
+
+
+
+/* STYLE FORMULARIOS*/
+
+  .contacto{
+    margin-top:40px;
+  }
+
+   .contacto-row{
+    margin:15px 0;
+   }
+
+    .contacto-row label{
+       color:#2654A2;
+       font-weight:bold;
+       font-size:1.2em;
+    }
+
+    .contacto-row input[type="text"]{
+       margin-left:20px;
+       padding:16px 90px;
+       border-radius:10px;
+       outline:0;
+       border:1px solid #2654A2;
+    }
+
+    .comentario{
+       border:1px solid  #2654A2;
+       margin-left:80px;
+       border-radius:8px;
+    }
+
+     .comentario-label{
+       position:relative;
+       bottom:170px;
+       left:75px;
+     }
+
+     .contacto-row input[type="submit"]{
+       border-radius:10px;
+       border:1px solid #2654A2;
+       padding:10px 50px;
+       background:white;
+       margin-left:40%;
+       position:relative;
+       bottom:20px;
+       outline:0;
+     }
+
+
+
+.title-proyecto{
+   margin-left:15px;
+}
+
+ .col-proyecto{
+  margin:10px 0;
+ }
+
+   .col-proyecto label{
+     margin-left:15px;
+   }
+
+   .col-proyecto input[type="text"]{
+     margin-left:20%;
+   }
+
+   .in-obra{
+      padding:8px 80px;
+      border-radius:10px;
+      outline:0;
+      border:1px solid #2654A2;
+   }
+
+   .in-empresa{
+     position:relative;
+     right:27px;
+     padding:8px 80px;
+      border-radius:10px;
+      outline:0;
+      border:1px solid #2654A2;
+   }
+
+    .in-lugar{
+     position:relative;
+     right:98px;
+     padding:8px 80px;
+     border-radius:10px;
+      outline:0;
+      border:1px solid #2654A2;
+   }
+
+    .in-inicio{
+     position:relative;
+     right:70px;
+     padding:8px 10px;
+      border-radius:10px;
+      outline:0;
+      border:1px solid #2654A2;
+   }
+
+    .in-fin{
+     position:relative;
+     right:50px;
+     padding:8px 10px;
+     border-radius:10px;
+      outline:0;
+      border:1px solid #2654A2;
+   }
+
+   .in-area{
+      position:relative;
+      left:140px;
+     border-radius:10px;
+      outline:0;
+      border:1px solid #2654A2;
+   }
+
+   .in-imagen{
+      position:relative;
+      right:15px;
+       border-radius:10px;
+      outline:0;
+      border:1px solid #2654A2;
+        padding:8px 10px;
+   }
+
+   .in-cancelar{
+     position:relative;
+     left:48%;
+     padding:10px 24px;
+     border-radius:10px;
+     outline:0;
+     color:white;
+     background:blue;
+   }
+
+   .in-guardar{
+      position:relative;
+      left:51%; 
+      padding:10px 24px;
+      border-radius:10px;
+      outline:0;
+      color:white;
+      background:blue;
+   }
+
+   .label-des{
+     position:relative;
+     bottom:165px;
+     left:15px;
+   }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
